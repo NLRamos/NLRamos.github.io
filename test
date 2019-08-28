@@ -1,0 +1,111 @@
+<html>
+	<head>
+        <title>My Website Project</title>
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <style>
+        
+        body {
+            margin: 0;
+        }
+    	h1 {
+        	border:10px solid black;
+        	padding: 75px;
+        	margin: 25px;
+            margin-top: 90px;
+            text-align: center;
+            font-size: 100px;
+            background-image: url('https://images.freecreatives.com/wp-content/uploads/2016/03/Grungy-Red-Black-Wallpaper.jpg')
+        }
+        h2 {
+            border:10px solid black;
+        	padding: 25px;
+        	margin: 25px;
+            text-align: center;
+            font-size: 30px;
+            background-image: url('https://images.freecreatives.com/wp-content/uploads/2016/03/Grungy-Red-Black-Wallpaper.jpg')
+		}
+        h3 {
+            font-size: 35px;
+            text-align: center;
+        }
+        h4 {
+            font-size: 35px;
+            text-align: center;
+        }
+        p {
+        	font-size: 18px;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        .main_menu {
+            padding: 0;
+            padding-right: 25px
+        }
+        ul {
+        	list-style-type: none;
+    		margin: 0;
+   			padding: 0;
+    		overflow: hidden;
+    		background-color: black;
+            padding: 5px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+        li {
+    		float: left;
+            display: inline;
+		}
+
+		li a {
+    		display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            font-family: papyrus;
+            text-decoration: none;
+		}
+        li a:hover {
+        	background-color: #111;
+        }
+        .active {
+    		background-color: #B22222;
+        }
+        img {
+        	width: 25%;
+        </style>
+		</head>
+     
+    <body style="background-image: url('https://hdwallpaperup.com/wp-content/uploads/2015/06/Red-Background-Wallpaper.jpg')">
+        <div id="wrapper"> 
+             <nav>
+              <ul class="main_menu">
+                <li><a class="active" href="home.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="name.html">Neo Louis Ramos</a></li>
+
+              </ul>
+            </nav>
+<header>
+<h1 style="font-family: papyrus;">Home</h1>
+<hr>
+<h2 style="font-family: papyrus;">By: Neo Louis Ramos / AP Computer Science Principles</h2>
+</header>
+
+<section>
+	<a href="https://codehs.com/info/curriculum/apcsp"></a>
+    <img src="https://static2.codehs.com/img/courses/apcsp.png" alt="APCSP Logo" style="float:right" style="border: 0;">
+<h3 style="font-family: papyrus;">What is <strong>AP Computer Science Principles?</strong></h3>
+	 
+    <p style="font-size: 25px;"><strong>APCSP, </strong>or <strong>Advanced Placement Computer Science Principles</strong>, is a computer science course offered by the CollegeBoard to provide any high school student the opportunity to earn college credits for a computer science course at college-level later in their lifetime. </p>
+
+<h4 style="font-family: papyrus;">What Will Students <strong>Expect From this Course?</strong></h4>
+   
+    <p style="font-size: 25px;"> Students will be introduced to the creative aspects of the Internet, programming, computing impacts, some cybersecurity, etc. The course itself offers an approach of teaching the principles of computation. It is a first time introduction to computer science, which does not require any experience in computer programming, etc. Modules include <strong>web development </strong>(introduces HTML and CSS), <strong>programming </strong> (solve using code), and more. <a href="https://codehs.com/info/curriculum/apcsp">Click here</a> to learn more.</p>
+            
+</section>
+    
+        </div>
+    </body>
+    
+</html>
